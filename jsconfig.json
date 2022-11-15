@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": ["componets/*"],
+      "@views/*": ["views/*"],
+      "@util/*": ["utilities/*"],
+      "@modules/*": ["modules/*"],
+      "@services/*": ["services/*"],
+      "@router/*": ["router/*"],
+      "@store/*": ["store/*"],
+      "@hooks/*": ["hooks/*"],
+      "@test/*": ["test/*"],
+      "@layouts/*": ["layouts/*"]
+    }
+  },
+  "include": ["src"]
+}
