@@ -7,7 +7,7 @@ const AuthLayout = ({ children, title }) => {
       alignItems={"center"}
       height={"100vh"}
       width={"full"}
-      padding={"2"}
+      padding={"6"}
       backgroundColor={"white"}
     >
       <Flex
@@ -15,10 +15,15 @@ const AuthLayout = ({ children, title }) => {
         alignItems={"center"}
         backgroundColor={"blue.400"}
         width={"600px"}
-        height={"auto"}
+        height={"50%"}
         rounded={"lg"}
       >
-        <Text fontSize={"2xl"} fontWeight={"600"} color={"black.900"}>
+        <Text
+          fontSize={"3xl"}
+          padding={"2rem"}
+          fontWeight={"600"}
+          color={"white"}
+        >
           {title}
         </Text>
         {children}

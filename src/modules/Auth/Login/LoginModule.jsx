@@ -1,14 +1,14 @@
 import Navbar from "@components/Navbar";
 import AuthLayout from "@layouts/Auth";
 import { Fragment } from "react";
-import { Text } from "@chakra-ui/react";
+import LoginFormModule from "./LoginFormModule";
 
 const LoginModule = () => {
   return (
     <Fragment>
       <Navbar />
       <AuthLayout title={"Login to Your Account"}>
-        <Text>Aku MAu Login Gays</Text>
+        <LoginFormModule />
       </AuthLayout>
     </Fragment>
   );
